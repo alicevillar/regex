@@ -1,0 +1,36 @@
+
+EXPLANATION FROM: https://regex101.com/
+
+^(([\w]{2})|([\w]{3})|([\w]{4}))([\s])(([\w]{3})$)
+"
+gm
+^ asserts position at start of a line
+1st Capturing Group (([\w]{2})|([\w]{3})|([\w]{4}))
+1st Alternative ([\w]{2})
+2nd Capturing Group ([\w]{2})
+Match a single character present in the list below [\w]
+{2} matches the previous token exactly 2 times
+\w matches any word character (equivalent to [a-zA-Z0-9_])
+2nd Alternative ([\w]{3})
+3rd Capturing Group ([\w]{3})
+Match a single character present in the list below [\w]
+{3} matches the previous token exactly 3 times
+\w matches any word character (equivalent to [a-zA-Z0-9_])
+3rd Alternative ([\w]{4})
+4th Capturing Group ([\w]{4})
+Match a single character present in the list below [\w]
+{4} matches the previous token exactly 4 times
+\w matches any word character (equivalent to [a-zA-Z0-9_])
+5th Capturing Group ([\s])
+Match a single character present in the list below [\s]
+\s matches any whitespace character (equivalent to [\r\n\t\f\v  ])
+6th Capturing Group (([\w]{3})$)
+7th Capturing Group ([\w]{3})
+Match a single character present in the list below [\w]
+{3} matches the previous token exactly 3 times
+\w matches any word character (equivalent to [a-zA-Z0-9_])
+$ asserts position at the end of a line
+↵ matches the character ↵ literally (case sensitive)
+Global pattern flags
+g modifier: global. All matches (don't return after first match)
+m modifier: multi line. Causes ^ and $ to match the begin/end of each line (not only begin/end of string)
