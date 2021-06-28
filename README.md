@@ -14,6 +14,5 @@ How do you ensure your solution is not subject to an evil regex attack?
 
 Resources:
 
-https://regex101.com/
-hhttps://jex.im/regulex/#!flags=&re=%5B0-9%5D%7B5%7D-%5B%5Cd%5D%7B3%7D
-https://blog.geekhunter.com.br/python-regex/
+* [Regular Expressions 101](https://regex101.com/)
+* [Geekhunter](https://blog.geekhunter.com.br/python-regex/)
