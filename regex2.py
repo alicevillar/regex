@@ -1,4 +1,4 @@
-# To check a list of CEPs
+# To check a list of Postcodes
 
 import re
 
