@@ -1,6 +1,6 @@
 # Regex challenge 
 
-This repository contains an assignement of Module 3 (“Secure Software Development”) of my MSc in Computer Science at the University of Essex, UK. 
+This repository contains an assignement of Module 3 (“Secure Software Development”), Unit 4 (Exploring Programming Language Concepts)  of my MSc in Computer Science at the University of Essex, UK. 
 
 ## Regex Challenge - Part 1
 
