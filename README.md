@@ -1,6 +1,6 @@
 # Regex challenge 
 
-
+This repository contains an assignement of Module 3 (“Secure Software Development”) of my MSc in Computer Science at the University of Essex, UK. 
 
 ## Regex Challenge - Part 1
 
@@ -14,11 +14,10 @@ Examples:
 * W1A 1HQ
 * EC1A 1BB
 
- 
+ ## Files
 
-[Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) 
-
-
+[Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (If-Else statement) 
+[Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (FOR structure) 
 
 ## Regex Challenge - Part 2
 
