@@ -16,8 +16,8 @@ Examples:
 
  ## Files
 
-[Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (If-Else statement) 
-[Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (FOR structure) 
+* [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (If-Else statement) 
+* [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (FOR structure) 
 
 ## Regex Challenge - Part 2
 
