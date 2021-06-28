@@ -21,7 +21,7 @@ Examples:
 
 ## Regex Challenge - Part 2
 
-How do you ensure your solution is not subject to an evil regex attack?
+### How do you ensure your solution is not subject to an evil regex attack?
 
 A Regex is called “evil” if it can stuck on crafted input.
 
