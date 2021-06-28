@@ -1,5 +1,9 @@
 # Regex challenge 
 
+
+
+## Regex Challenge - Part 1
+
 The UK postcode system consists of a string that contains a number of characters and numbers – a typical example is ST7 9HV (this is not valid – see below for why). The rules for the pattern are available from idealpostcodes (2020).
 Create a python program that implements a regex that complies with the rules provided above – test it against the examples provided.
 Examples:
@@ -10,9 +14,38 @@ Examples:
 * W1A 1HQ
 * EC1A 1BB
 
+ 
+
+[Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) 
+
+
+
+## Regex Challenge - Part 2
+
 How do you ensure your solution is not subject to an evil regex attack?
+
+A Regex is called “evil” if it can stuck on crafted input.
+
+Evil Regex pattern contains:
+
+Grouping with repetition
+Inside the repeated group:
+Repetition
+Alternation with overlapping
+Examples of Evil Patterns:
+
+(a+)+
+([a-zA-Z]+)*
+(a|aa)+
+(a|a?)+
+(.*a){x} for x \> 10
+All the above are susceptible to the input aaaaaaaaaaaaaaaaaaaaaaaa! (The minimum input length might change slightly, when using faster or slower machines).
+
+Attacks
+The attacker might use the above knowledge to look for applications that use Regular Expressions, containing an Evil Regex, and send a well-crafted input, that will hang the system. Alternatively, if a Regex itself is affected by a user input, the attacker can inject an Evil Regex, and make the system vulnerable.
 
 Resources:
 
+* [OWASP](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)
 * [Regular Expressions 101](https://regex101.com/)
 * [Geekhunter](https://blog.geekhunter.com.br/python-regex/)
