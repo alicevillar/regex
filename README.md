@@ -40,7 +40,7 @@ Here are sample flows for :
 > Valid Postcode 
 ``` 
 
-#### Flow C – Running the code int the file [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py):
+#### Flow C – Running the code of the file [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py):
 
  ```
 > Cep M1 1AA is valid
