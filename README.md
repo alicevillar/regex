@@ -14,17 +14,19 @@ Examples:
 * W1A 1HQ
 * EC1A 1BB
 
- ## :paperclip: Solution  
+ ## :paperclip: Solution   
  
  For this exercise I used an article from [Geekhunter](https://blog.geekhunter.com.br/python-regex/) which explains Regex Parsers syntax. To test my Regex code I used [Regular Expressions 101](https://regex101.com/), which provides a detailed explanation of the Regex code. In the file named [explanation](https://github.com/alicevillar/regex/blob/main/explanation) you can see the detailed response I had from that website. I created two different codes:
  
 * [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (this is done with an If-Else statement) 
 * [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (this is done with a FOR structure) 
 
-## Regex Challenge - Part 2
+## :paperclip: Regex Challenge - Part 2
 
-### How do you ensure your solution is not subject to an evil regex attack?
+How do you ensure your solution is not subject to an evil regex attack?
 
+ ## :paperclip: Solution  
+ 
 A Regex is called “evil” if it can stuck on crafted input.
 
 Evil Regex pattern contains:
