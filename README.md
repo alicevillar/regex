@@ -57,25 +57,28 @@ How do you ensure your solution is not subject to an evil regex attack?
 
  ## :paperclip: Solution  
  
-A Regex is called “evil” if it can stuck on crafted input.
+According to [OWASP](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS), a Regex is called “evil” if it can stuck on crafted input. Evil Regex pattern contains:
 
-Evil Regex pattern contains:
+* Grouping with repetition
+* Inside the repeated group: Repetition / Alternation with overlapping
 
-Grouping with repetition
-Inside the repeated group:
-Repetition
-Alternation with overlapping
-Examples of Evil Patterns:
+### Examples of Evil Patterns:
 
-(a+)+
-([a-zA-Z]+)*
-(a|aa)+
-(a|a?)+
-(.*a){x} for x \> 10
+* (a+)+
+* ([a-zA-Z]+)*
+* (a|aa)+
+* (a|a?)+
+* (.*a){x} for x \> 10
+
+
 All the above are susceptible to the input aaaaaaaaaaaaaaaaaaaaaaaa! (The minimum input length might change slightly, when using faster or slower machines).
 
-Attacks
 The attacker might use the above knowledge to look for applications that use Regular Expressions, containing an Evil Regex, and send a well-crafted input, that will hang the system. Alternatively, if a Regex itself is affected by a user input, the attacker can inject an Evil Regex, and make the system vulnerable.
+
+In every layer of the WEB there are Regular Expressions, that might contain an Evil Regex. An attacker can hang a WEB-browser (on a computer or potentially also on a mobile device), hang a Web Application Firewall (WAF), attack a database, and even stack a vulnerable WEB server.
+
+For example, if a programmer uses a Regex to validate the client side of a system, and the Regex contains an Evil Regex, the attacker can assume the same vulnerable Regex is used in the server side, and send a well-crafted input, that stacks the WEB server.
+
 
 ## Resources:
 
