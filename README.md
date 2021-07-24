@@ -21,6 +21,36 @@ Examples:
 * [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (this is done with an If-Else statement) 
 * [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (this is done with a FOR structure) 
 
+## Sample Flows 
+
+Here are sample flows for : 
+ 
+#### Flow A - Running the code of the file [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) with an invalid code:
+
+```
+> Please type your CEP: CR2 6XHFF  
+> None
+> Invalid Postcode! 
+``` 
+
+#### Flow B - Running the code of the file [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) with an valid code:
+```
+> Please type your CEP: CR2 6XH  
+> <re.Match object; span=(0, 7), match='CR2 6XH'>
+> Valid Postcode 
+``` 
+
+#### Flow C – Running the code int the file [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py):
+
+ ```
+> Cep M1 1AA is valid
+> Cep M60 1NW is valid
+> Cep CR2 6XH is valid
+> Cep DN55 1PT is valid  
+> Cep W1A 1HQ is valid
+> Cep EC1A 1BB is valid
+ ```
+
 ## :paperclip: Regex Challenge - Part 2
 
 How do you ensure your solution is not subject to an evil regex attack?
