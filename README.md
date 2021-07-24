@@ -47,7 +47,7 @@ All the above are susceptible to the input aaaaaaaaaaaaaaaaaaaaaaaa! (The minimu
 Attacks
 The attacker might use the above knowledge to look for applications that use Regular Expressions, containing an Evil Regex, and send a well-crafted input, that will hang the system. Alternatively, if a Regex itself is affected by a user input, the attacker can inject an Evil Regex, and make the system vulnerable.
 
-Resources:
+## Resources:
 
 * [OWASP](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS)
 * [Regular Expressions 101](https://regex101.com/)
