@@ -2,7 +2,7 @@
 
 This repository contains an assignement of Module 3 (“Secure Software Development”) Unit 4 (Exploring Programming Language Concepts)  of my MSc in Computer Science at the University of Essex, UK. 
 
-## Regex Challenge - Part 1
+## :paperclip: Regex Challenge - Part 1
 
 The UK postcode system consists of a string that contains a number of characters and numbers – a typical example is ST7 9HV (this is not valid – see below for why). The rules for the pattern are available from idealpostcodes (2020).
 Create a python program that implements a regex that complies with the rules provided above – test it against the examples provided.
@@ -14,10 +14,12 @@ Examples:
 * W1A 1HQ
 * EC1A 1BB
 
- ## Files
-
-* [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (If-Else statement) 
-* [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (FOR structure) 
+ ## :paperclip: Solution  
+ 
+ For this exercise I used an article from [Geekhunter](https://blog.geekhunter.com.br/python-regex/) which explains Regex Parsers syntax. To test my Regex code I used [Regular Expressions 101](https://regex101.com/), which provides a detailed explanation of the Regex code. In the file named [explanation](https://github.com/alicevillar/regex/blob/main/explanation) you can see the detailed response I had from that website. I created two different codes:
+ 
+* [Regex 1](https://github.com/alicevillar/regex/blob/main/regex1.py) -> Python code to check one Postcode (this is done with an If-Else statement) 
+* [Regex 2](https://github.com/alicevillar/regex/blob/main/regex2.py) -> Python code check a list of Postcodes (this is done with a FOR structure) 
 
 ## Regex Challenge - Part 2
 
